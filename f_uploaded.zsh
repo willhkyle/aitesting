@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env zsh
+
 setopt promptsubst;
 
 export VIRTUAL_ENV_DISABLE_PROMPT=1;
