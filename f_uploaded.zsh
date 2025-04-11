@@ -33,5 +33,5 @@ function _checkmate_writeVirtualEnvModule()
 	[[ ${VIRTUAL_ENV} ]] && echo "<%F{red}${VIRTUAL_ENV##*/}%f> ";
 }
 
-PROMPT=' %(#.%F{red}%f.)%(?.. [%F{red}%?%f]) $(_checkmate_writeVirtualEnvModule)$(_checkmate_writePathModule) \
-$(_checkmate_writeGitModule)%f↪ ';
+PROMPT='< %(#.%F{red}<%f.>)%(?.. [%F{red}%?%f]) $(_checkmate_writeVirtualEnvModule)$(_checkmate_writePathModule) \
+$(_checkmate_writeGitModule)%f> ';
