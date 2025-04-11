@@ -1,3 +1,4 @@
+#!/bin/bash
 setopt promptsubst;
 
 export VIRTUAL_ENV_DISABLE_PROMPT=1;
